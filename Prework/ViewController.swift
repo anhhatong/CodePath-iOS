@@ -25,6 +25,8 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Sets the title in the Navigation Bar
         self.title = "Tip Calculator"
+        // autofocus bill amount text field 
+        billAmountTextField.becomeFirstResponder()
     }
     
     // Triggered right before screen mounted
